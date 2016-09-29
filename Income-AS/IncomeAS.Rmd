@@ -20,6 +20,7 @@ fit1 = aov(income~salis, data2)
 par(mfrow=c(2,2))
 plot(fit1)
 summary(fit1)
+summary(fit1)
 ```
 
 ###Kadangi p-value < 0.05, H0 hipotezę atmetame, tai vidurkiai tarp šalių statistiškai reikšmingai skiriasi. 
